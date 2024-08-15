@@ -1,6 +1,10 @@
 name: TypeScript Client (Encoding / Decoding Test)
 
 on:
+  push:
+    paths:
+      - samples/client/others/typescript/encode-decode/**
+      - .github/workflows/samples-typescript-encode-decode.yaml
   pull_request:
     paths:
       - samples/client/others/typescript/encode-decode/**
